@@ -1,0 +1,38 @@
+# TP-Link AX3000 (Archer AX3000) Router Setup Guide
+
+Welcome! This guide walks you through the complete setup process for the TP-Link AX3000 Wi-Fi 6 router — ideal for home users, gamers, and small networks.
+
+💡 *This setup assumes you're using a brand new router and your ISP provides a Dynamic IP address.*
+
+---
+
+## 📸 Step 1: Connect the Hardware
+
+1. **Power it up**  
+   - Plug the **AC adapter** into a wall outlet.  
+   - Connect the **DC plug** to the round power port on the router.  
+   - Switch the router **ON**.
+
+   ![Image: Power connection](./images/power.jpg)
+
+2. **Connect to the Internet (WAN)**  
+   - Take the **RJ45 Ethernet cable** provided by your **Internet Service Provider (ISP)**.  
+   - Plug it into the **blue WAN port** on the back of the router.
+
+   ![Image: WAN cable connection](./images/wan.jpg)
+
+3. **Connect to Your PC or Laptop (LAN)**  
+   - Use the **white Ethernet cable** from the box.  
+   - Plug one end into a **LAN port** on the router, and the other end into your computer.
+
+   ![Image: LAN to computer](./images/lan.jpg)
+
+4. **Confirm the Wired Connection**  
+   - Open your **network settings** on your computer.  
+   - You should see a connection via Ethernet from the router.
+
+---
+
+## 🌐 Step 2: Access the Router Admin Page
+
+1. Open a web browser and type:  
