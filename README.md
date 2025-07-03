@@ -13,45 +13,87 @@ This repository documents the setup process, configuration steps, and troublesho
 - TP-Link Tether App (optional)
 
 ---
+![image alt](https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/1.png?raw=true)
+
 
 ## 🛠️ Setup Steps
+ Type 192.169.0.1 in the browser
+- You should land on the TP-Link login page.
 
-### 1. **Unbox and Connect**
-- Plug in the AX3000 router to power.
-- Connect WAN (blue) port to your modem via Ethernet.
-- Connect your PC to a LAN port or join the default Wi-Fi (SSID on label).
+https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/2.png?raw=true
 
-### 2. **Access the Web Interface**
-- Open a browser and go to: [`http://tplinkwifi.net`](http://tplinkwifi.net) or `192.168.0.1`
-- Login with default credentials:
-  - Username: `admin`
-  - Password: `admin` *(or as printed on router)*
-
-### 3. **Quick Setup Wizard**
-- Choose your internet connection type (Dynamic IP, PPPoE, etc.)
-- Set your new Wi-Fi SSID and password
-- Update admin password
+Enter the default password (check router label or box) or set a new one if prompted.
 
 ---
 
-## ⚙️ Recommended Settings
+## 🛠️ Step 3: Basic Configuration
 
-| Setting             | Value                          |
-|---------------------|-------------------------------|
-| Wi-Fi Mode          | Dual Band (2.4GHz & 5GHz)      |
-| Security            | WPA3 (or WPA2/WPA3 mixed)      |
-| Channel Width       | Auto / 80 MHz for 5GHz         |
-| IP Address          | Auto (DHCP) or Static if needed|
-| Firmware            | Update to latest version       |
+1. **Set Time Zone**  
+- Select your local time zone for accurate scheduling and updates.
+
+[![Image: Timezone](./images/timezone.jpg)](https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/3.png?raw=true)
+
+2. **WAN Port Mode**  
+- If prompted, choose the **2.5 Gbps WAN port** if supported by your modem.
+https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/4.png?raw=true
+
+3. **Internet Connection Type**  
+- Choose **Dynamic IP** (most common).  
+- This allows your ISP to assign an IP address automatically.
+https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/5.png?raw=true
+
+4. **MAC Address Settings**  
+- Choose **Use Default MAC Address** unless otherwise specified by your ISP.
+https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/6.png?raw=true
+
+5. **Wireless Settings (Very Important)**  
+- **Change the default SSID** (network name) and **Wi-Fi password**.  
+- This keeps your network secure and avoids conflicts with other devices nearby.
+https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/7.png?raw=true
+
 
 ---
 
-## 🔐 Security Tips
+## 🔄 Step 4: Final Setup and Test
 
-- Change default admin credentials
-- Disable WPS (unless needed)
-- Enable automatic firmware updates
-- Create a guest network for visitors
+1. **Connection Test**  
+- The router will perform a network test.  
+- Be patient — this may take a minute or two.
+https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/8.png?raw=true
+
+2. **Enable Auto Firmware Updates**  
+- Recommended to keep your router secure and stable.  
+- Schedule updates during low-usage times if needed.
+
+3. **Review Summary Page**  
+- Confirm your settings (SSID, time zone, connection status, etc.)
+- If everything looks good, click **Finish**.
+https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/9.png?raw=true
+---
+
+## ✅ Step 5: Done!
+
+Your Ethernet and Wi-Fi connections should now be working!  
+You can now unplug your computer if needed and connect wirelessly.
+
+---
+
+## 🧠 Tips:
+
+- You can now manage your router using the **TP-Link Tether app** (iOS/Android).
+- For advanced features like port forwarding, parental controls, or VPN setup, visit the **Advanced Settings** tab on the admin page.
+
+---
+
+## 📷 Image Notes
+
+📌 All image placeholders (`./images/xyz.jpg`) can be replaced with your actual screenshots or photos during publishing.
+
+---
+
+## 💬 Questions?
+
+Open an issue or contact me directly if you run into setup issues or want to expand this guide.
 
 ---
 
@@ -68,23 +110,8 @@ This repository documents the setup process, configuration steps, and troublesho
 - Internet not working? Restart modem and router
 - Wi-Fi slow? Change channels or update firmware
 - Reset to factory: Hold reset button for 10 seconds
-
----
-
-## 📝 Notes
-
-- AX3000 models include Archer AX55, AX50, etc.
-- Compatible with most ISPs
-- Supports OFDMA, MU-MIMO, and Beamforming
-
----
-
-
-![image alt](https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/1.png?raw=true)
-
-
+- 
 ## 📄 License
 
 MIT License  
 © 2025 Timothy Udumula
-
