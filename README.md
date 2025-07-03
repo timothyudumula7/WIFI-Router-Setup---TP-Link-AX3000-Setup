@@ -79,6 +79,10 @@ This repository documents the setup process, configuration steps, and troublesho
 
 ---
 
+
+![image alt](https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/1.png?raw=true)
+
+
 ## 📄 License
 
 MIT License  
