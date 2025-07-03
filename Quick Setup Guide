@@ -1,38 +1,76 @@
-# TP-Link AX3000 (Archer AX3000) Router Setup Guide
+- You should land on the TP-Link login page.
 
-Welcome! This guide walks you through the complete setup process for the TP-Link AX3000 Wi-Fi 6 router — ideal for home users, gamers, and small networks.
+![Image: Login page](./images/login.jpg)
 
-💡 *This setup assumes you're using a brand new router and your ISP provides a Dynamic IP address.*
-
----
-
-## 📸 Step 1: Connect the Hardware
-
-1. **Power it up**  
-   - Plug the **AC adapter** into a wall outlet.  
-   - Connect the **DC plug** to the round power port on the router.  
-   - Switch the router **ON**.
-
-   ![Image: Power connection](./images/power.jpg)
-
-2. **Connect to the Internet (WAN)**  
-   - Take the **RJ45 Ethernet cable** provided by your **Internet Service Provider (ISP)**.  
-   - Plug it into the **blue WAN port** on the back of the router.
-
-   ![Image: WAN cable connection](./images/wan.jpg)
-
-3. **Connect to Your PC or Laptop (LAN)**  
-   - Use the **white Ethernet cable** from the box.  
-   - Plug one end into a **LAN port** on the router, and the other end into your computer.
-
-   ![Image: LAN to computer](./images/lan.jpg)
-
-4. **Confirm the Wired Connection**  
-   - Open your **network settings** on your computer.  
-   - You should see a connection via Ethernet from the router.
+2. Enter the default password (check router label or box) or set a new one if prompted.
 
 ---
 
-## 🌐 Step 2: Access the Router Admin Page
+## 🛠️ Step 3: Basic Configuration
 
-1. Open a web browser and type:  
+1. **Set Time Zone**  
+- Select your local time zone for accurate scheduling and updates.
+
+![Image: Timezone](./images/timezone.jpg)
+
+2. **WAN Port Mode**  
+- If prompted, choose the **2.5 Gbps WAN port** if supported by your modem.
+
+3. **Internet Connection Type**  
+- Choose **Dynamic IP** (most common).  
+- This allows your ISP to assign an IP address automatically.
+
+4. **MAC Address Settings**  
+- Choose **Use Default MAC Address** unless otherwise specified by your ISP.
+
+5. **Wireless Settings (Very Important)**  
+- **Change the default SSID** (network name) and **Wi-Fi password**.  
+- This keeps your network secure and avoids conflicts with other devices nearby.
+
+![Image: SSID settings](./images/ssid.jpg)
+
+---
+
+## 🔄 Step 4: Final Setup and Test
+
+1. **Connection Test**  
+- The router will perform a network test.  
+- Be patient — this may take a minute or two.
+
+2. **Enable Auto Firmware Updates**  
+- Recommended to keep your router secure and stable.  
+- Schedule updates during low-usage times if needed.
+
+3. **Review Summary Page**  
+- Confirm your settings (SSID, time zone, connection status, etc.)
+- If everything looks good, click **Finish**.
+
+---
+
+## ✅ Step 5: Done!
+
+Your Ethernet and Wi-Fi connections should now be working!  
+You can now unplug your computer if needed and connect wirelessly.
+
+---
+
+## 🧠 Tips:
+
+- You can now manage your router using the **TP-Link Tether app** (iOS/Android).
+- For advanced features like port forwarding, parental controls, or VPN setup, visit the **Advanced Settings** tab on the admin page.
+
+---
+
+## 📷 Image Notes
+
+📌 All image placeholders (`./images/xyz.jpg`) can be replaced with your actual screenshots or photos during publishing.
+
+---
+
+## 💬 Questions?
+
+Open an issue or contact me directly if you run into setup issues or want to expand this guide.
+
+---
+
+© 2025 [Your Name or GitHub Handle]
