@@ -19,8 +19,7 @@ This repository documents the setup process, configuration steps, and troublesho
 ## 🛠️ Setup Steps
  Type 192.169.0.1 in the browser
 - You should land on the TP-Link login page.
-
-https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/2.png?raw=true
+![image alt](https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/2.png?raw=true)
 
 Enter the default password (check router label or box) or set a new one if prompted.
 
@@ -30,26 +29,25 @@ Enter the default password (check router label or box) or set a new one if promp
 
 1. **Set Time Zone**  
 - Select your local time zone for accurate scheduling and updates.
-
-[![Image: Timezone](./images/timezone.jpg)](https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/3.png?raw=true)
+![image alt](https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/3.png?raw=true)
 
 2. **WAN Port Mode**  
 - If prompted, choose the **2.5 Gbps WAN port** if supported by your modem.
-https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/4.png?raw=true
+![image alt](https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/4.png?raw=true)
 
 3. **Internet Connection Type**  
 - Choose **Dynamic IP** (most common).  
 - This allows your ISP to assign an IP address automatically.
-https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/5.png?raw=true
+![image alt](https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/5.png?raw=true)
 
 4. **MAC Address Settings**  
 - Choose **Use Default MAC Address** unless otherwise specified by your ISP.
-https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/6.png?raw=true
+![image alt](https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/6.png?raw=true)
 
 5. **Wireless Settings (Very Important)**  
 - **Change the default SSID** (network name) and **Wi-Fi password**.  
 - This keeps your network secure and avoids conflicts with other devices nearby.
-https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/7.png?raw=true
+![image alt](https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/7.png?raw=true)
 
 
 ---
@@ -59,16 +57,17 @@ https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob
 1. **Connection Test**  
 - The router will perform a network test.  
 - Be patient — this may take a minute or two.
-https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/8.png?raw=true
+![image alt](https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/8.png?raw=true)
 
 2. **Enable Auto Firmware Updates**  
-- Recommended to keep your router secure and stable.  
+- It is recommended to keep your router secure and stable.  
 - Schedule updates during low-usage times if needed.
 
 3. **Review Summary Page**  
 - Confirm your settings (SSID, time zone, connection status, etc.)
 - If everything looks good, click **Finish**.
-https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/9.png?raw=true
+![image alt](https://github.com/timothyudumula7/WIFI-Router-Setup---TP-Link-AX3000-Setup/blob/main/Images/9.png?raw=true)
+
 ---
 
 ## ✅ Step 5: Done!
